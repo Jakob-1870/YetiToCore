@@ -1,0 +1,5 @@
+This script will recover your yeti paper backup. It turns i
+
+To run this script, return to the file manager where you opened this file listed, right click the empty space, select Open in Terminal. Then paste this command in the terminal: 
+
+bash PaperBackupRestore.sh
