@@ -28,12 +28,12 @@ check_if_core_is_running() {	# If core is running displays an error message and 
 check_if_core_is_running
 
 # airgapping
-#sudo rm -r /lib/modules/$(uname -r)/kernel/drivers/net/ethernet # delete ethernet, wifi, and bluetooth drivers
-#sudo rm -r /lib/modules/$(uname -r)/kernel/drivers/net/wireless
-#sudo rm -r /lib/modules/$(uname -r)/kernel/drivers/bluetooth
-#nmcli networking off # disable internet
-#sudo systemctl disable bluetooth.service --force # disable bluetooth
-#sudo systemctl stop bluetooth
+sudo rm -r /lib/modules/$(uname -r)/kernel/drivers/net/ethernet # delete ethernet, wifi, and bluetooth drivers
+sudo rm -r /lib/modules/$(uname -r)/kernel/drivers/net/wireless
+sudo rm -r /lib/modules/$(uname -r)/kernel/drivers/bluetooth
+nmcli networking off # disable internet
+sudo systemctl disable bluetooth.service --force # disable bluetooth
+sudo systemctl stop bluetooth
 
 zenity --info --text "This computer is now airgapped.\n\nInsert your yeti CD and Paste your yetiseed(s) into the Pictures directory now.\nAfter transferring, click OK."
 yetiseeds_amount=$(sudo find $HOME/Pictures -maxdepth 1 -name "yetiseed[0-9]*.txt" 2>/dev/null | wc -l)
