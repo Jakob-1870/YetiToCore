@@ -37,7 +37,7 @@ sudo systemctl stop bluetooth
 
 zenity --warning --text "I highly recommend physically airgapping your computer.\nIt's not hard to do. If your laptop's network card can't be removed, go buy an old one that can.\n\nIf you choose to rely on a software airgap you MUST remember to airgap the laptop everytime you recover your wallet. You can do so by downloading the Airgap.sh script from github and running it before you insert the backup CD's when you spend in the future."
 
-zenity --info --text "This computer is now airgapped.\n\nInsert your yeti CD and Paste your yetiseed(s) into the Pictures directory now.\nAfter transferring, click OK."
+zenity --info --text "This computer is now software airgapped.\n\nInsert your yeti CD and Paste your yetiseed(s) into the Pictures directory now.\nAfter transferring, click OK."
 yetiseeds_amount=$(sudo find $HOME/Pictures -maxdepth 1 -name "yetiseed[0-9]*.txt" 2>/dev/null | wc -l)
 if [ $yetiseeds_amount -eq 0 ]; then # exit script with warning if no seeds found in Pictures
     zenity --warning --text="No Yetiseeds found\n\nCopy and paste the yetiseeds to your Pictures directory on the left sides of the \"Files\" application.\n\nRerun script."
