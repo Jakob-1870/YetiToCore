@@ -132,7 +132,7 @@ ask_descriptor() {
 
     check=$($HOME/bitcoin-0.21.2/bin/bitcoin-cli getdescriptorinfo "$Public_Descriptor")
 
-    if [[ check = "" ]]; then
+    if [[ "$check" = "" ]]; then
         zenity --warning --text "Invalid line, try again.\nDo not include apostrophes at the end."
         ask_descriptor
     fi
