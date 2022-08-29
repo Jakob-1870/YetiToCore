@@ -40,8 +40,8 @@ bash YetiToCore.sh
 
 ## Important Details
 
-It's recommended to physically airgap the offline laptop as the script has no way of airgapping it before you enter the Backup CD.
-If you don't physically airgap you must run the Airgap.sh script manually before you insert a backup CD.
+It's highly recommended to physically airgap the offline laptop as the script has no way of airgapping it before you enter the Backup CD.
+If you don't physically airgap you must run the Airgap.sh script manually before you insert a backup CD. It's in Files/Airgap.sh on this github.
 
 
 Each backup CD includes the seed's bitcoin core wallet, a copy of bitcoin core, a restoration script, the original yetiseed*.txt, a Paper-backup script, and the seed info in plaintext (HDSeed,xprv,xpub, and the multisig wallet's xprv and xpub descriptor).
