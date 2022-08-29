@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 # airgapping
 sudo rm -r /lib/modules/$(uname -r)/kernel/drivers/net/ethernet # delete ethernet, wifi, and bluetooth drivers
