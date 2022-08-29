@@ -32,7 +32,7 @@ Alternatively:
 # How to run the script:
 
 You can run this script immediately after finishing yeti before erasing, or later on with a Xubuntu USB.
-* Download the release on github and transfer it to your offline laptop.
+* Download the .zip on github and transfer it to your offline laptop.
 * Extract the folder anywhere.
 * Open the extracted folder. Right click the empty space, select Open in Terminal. Then paste this command in the terminal: 
 
