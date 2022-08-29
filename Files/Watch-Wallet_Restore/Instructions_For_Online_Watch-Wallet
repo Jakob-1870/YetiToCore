@@ -1,4 +1,4 @@
-You can restore your wallet on a Linux OS such as xubuntu.
+You can restore your wallet on a Linux OS such as xubuntu. The system packages will be updated, tor installed, and bitcoin core launched behind a tor proxy.
 
 To restore your wallet, return to the file manager where you opened this file, right click the empty space, select Open in Terminal. Then paste this command in the terminal: 
 
