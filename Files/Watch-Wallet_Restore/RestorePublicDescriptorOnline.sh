@@ -8,7 +8,7 @@ check_if_core_is_running() {	# If core is running displays an error message and 
 		check_if_core_is_running
 	fi
 }
-#check_if_core_is_running
+check_if_core_is_running
 
 notify-send "Be patient, it may take a moment..." &
 
@@ -16,7 +16,7 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install tor -y
 
-tar -xzf bitcoin-0.21.2-x86_64-linux-gnu.tar.gz -C $HOME
+tar -xzf Files/bitcoin-0.21.2-x86_64-linux-gnu.tar.gz -C $HOME
 mkdir $HOME/.bitcoin $HOME/.bitcoin/wallets
 
 cp -r Public_Descriptor_Wallet $HOME/.bitcoin/wallets
