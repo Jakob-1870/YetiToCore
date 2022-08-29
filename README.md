@@ -1,6 +1,6 @@
 # Readme
 
-This script will convert your yeti CD backups into standard bitcoin core wallet backups.
+Convert your yeti CD backups into standard bitcoin core wallet backups.
 
 Benefits:
   1. The airgapped computer is permanently offline. It never requires new code or connecting to a website (like yeti currently does)
