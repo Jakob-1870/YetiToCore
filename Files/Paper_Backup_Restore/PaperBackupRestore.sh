@@ -146,7 +146,6 @@ for (( i = 1; i <= 18; i++ )); do
     yetiseed+="\nTwo other seed packets must be obtained to recover the bitcoin stored."
 done
 
-echo -e $yetiseed >> $HOME/Pictures/yetiseed$seed_number.txt
+sudo echo -e $yetiseed >> $HOME/Pictures/yetiseed$seed_number.txt
 
 zenity --info --text "Yetiwallet successfully restored. It has been saved to the Pictures folder\nYou can run this script again if you need more seeds recovered.\nRun YetiToCore.sh after to convert them to wallet.dats\n\nThis Computer needs to be wiped when finished."
-
