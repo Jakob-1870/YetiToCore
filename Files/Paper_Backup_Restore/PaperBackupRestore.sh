@@ -124,7 +124,7 @@ fi
 yetiseed+="\n\n\n"
 
 ask_descriptor() {
-    Public_Descriptor=$(zenity --entry --width 600 --text "Enter the Public Descriptor" | xargs )
+    Public_Descriptor=$(zenity --entry --width 600 --text "Enter the Public Descriptor" --entry-text "$Public_Descriptor" | sed 's/"//g' | xargs )
 
     #check if descriptor is valid
 
@@ -132,8 +132,8 @@ ask_descriptor() {
 
     check=$($HOME/bitcoin-0.21.2/bin/bitcoin-cli getdescriptorinfo "$Public_Descriptor")
 
-    if [[ "$check" = "" ]]; then
-        zenity --warning --text "Invalid line, try again.\nDo not include apostrophes."
+    if [[ "$check" == "" ]]; then
+        zenity --warning --text "Invalid descriptor, fix error."
         ask_descriptor
     fi
 
