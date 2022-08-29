@@ -9,7 +9,7 @@ sudo systemctl disable bluetooth.service --force # disable bluetooth
 sudo systemctl stop bluetooth
 #------
 
-tar -xzf bitcoin-0.21.2-x86_64-linux-gnu.tar.gz -C $HOME
+tar -xzf Files/bitcoin-0.21.2-x86_64-linux-gnu.tar.gz -C $HOME
 mkdir $HOME/.bitcoin $HOME/.bitcoin/wallets
 
 wallet_number=$(pwd | tail -c 2)
