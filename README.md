@@ -9,7 +9,7 @@ Benefits:
   
 It's as code-minimized as possible. It uses only uses simple bash scripts and bitcoin 0.21.2
 
-You can run this script immediately after finishing yeti, before erasing, or later on with a Xubuntu USB.
+You can run this script immediately after finishing yeti before erasing, or later on with a Xubuntu USB.
 
 ## Improved Signing procedure:
 
@@ -31,7 +31,7 @@ Alternatively:
 
 # How to run the script:
 
-You can run this script immediately after finishing yeti, before erasing, or later on with a Xubuntu USB.
+You can run this script immediately after finishing yeti before erasing, or later on with a Xubuntu USB.
 * Download the release on github and transfer it to your offline laptop.
 * Extract the folder anywhere.
 * Open the extracted folder. Right click the empty space, select Open in Terminal. Then paste this command in the terminal: 
