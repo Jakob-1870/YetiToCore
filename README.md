@@ -4,7 +4,7 @@ Convert your yeti CD backups into standard bitcoin core wallet backups.
 
 Benefits:
   1. The airgapped computer is permanently offline. It never requires new code or connecting to a website (like yeti currently does)
-  2. You can sign independently of the other seeds, one at a time. You don't have to bring 3 seeds together. It's faster, safer and easier.
+  2. You can sign independently of the other seeds, one at a time. You don't have to bring 3 seeds together. It's faster, safer, and easier.
   3. Only live OS needed. You don't have to install Ubuntu. Just boot from a live USB and sign.
   
 It's as code-minimized as possible. It uses only uses simple bash scripts and bitcoin 0.21.2
