@@ -124,7 +124,7 @@ fi
 yetiseed+="\n\n\n"
 
 ask_descriptor() {
-    Public_Descriptor=$(zenity --entry --width 600 --text "Enter the Public Descriptor")
+    Public_Descriptor=$(zenity --entry --width 600 --text "Enter the Public Descriptor" | xargs )
 
     #check if descriptor is valid
 
