@@ -1,4 +1,4 @@
-This script will recover your yeti paper backup. It turns i
+This script will recover your yeti paper backup. It turns it back into yetiseed*.txt format. You can run the YetiToCore.sh script after to make it a wallet.dat 
 
 To run this script, return to the file manager where you opened this file listed, right click the empty space, select Open in Terminal. Then paste this command in the terminal: 
 
