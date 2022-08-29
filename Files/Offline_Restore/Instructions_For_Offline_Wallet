@@ -2,4 +2,4 @@ You can restore your wallet on a live USB OS such as xubuntu. You should not ins
 
 To restore your offline wallet, return to the file manager where you opened this file, right click the empty space, select Open in Terminal. Then paste this command in the terminal: 
 
-bash RestoreOfflineSeed.sh
+bash RestoreOfflineWallet.sh
